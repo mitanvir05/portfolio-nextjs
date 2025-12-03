@@ -26,21 +26,21 @@ const Hero = () => {
         <div className="flex justify-center space-x-8 mb-8">
           <Link
             href="https://github.com/mitanvir05"
-            target="/"
+            target="_blank"
             className="text-2xl text-gray-600 hover:text-primary dark:text-gray-300 transition-colors duration-300"
           >
             <FaGithub size={34} />
           </Link>
           <Link
             href="https://www.linkedin.com/in/muhaimin-tanvir"
-            target="/"
+            target="_blank"
             className="text-2xl text-gray-600 hover:text-primary dark:text-gray-300 transition-colors duration-300"
           >
             <FaLinkedin size={34} />
           </Link>
           <Link
             href="https://wa.me/8801700955009"
-            target="/"
+            target="_blank"
             className="text-2xl text-gray-600 hover:text-primary dark:text-gray-300 transition-colors duration-300"
           >
             <FaWhatsapp size={34} />
