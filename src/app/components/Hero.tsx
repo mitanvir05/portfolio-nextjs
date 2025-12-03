@@ -17,7 +17,7 @@ const Hero = () => {
           />
         </div>
         <h1 className="text-4xl md:text-6xl font-bold mb-6">
-          Hi, I'm <span className="text-primary">Tanvir</span>
+          Hi, I&apos;m <span className="text-primary">Tanvir</span>
         </h1>
         <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8">
           Dedicated to developing efficient, user-centric web solutions with a
