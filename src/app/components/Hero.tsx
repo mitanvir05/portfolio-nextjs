@@ -48,19 +48,34 @@ const Hero = () => {
         </div>
 
         <div className="flex flex-col md:flex-row justify-center gap-4">
-          <Link
-            href="/projects"
-            className="bg-primary inline-block w-full md:w-auto text-white px-8 py-3 rounded-lg hover:bg-primary/70 transition-colors text-xl "
-          >
-            View Project
-          </Link>
-          <Link
-            href="/contact"
-            className="bg-gray-500 inline-block w-full md:w-auto text-white px-8 py-3 rounded-lg hover:bg-primary/70 transition-colors text-xl"
-          >
-            Contact Me
-          </Link>
-        </div>
+  {/* Primary Button */}
+  <Link
+    href="/projects"
+    className="inline-block w-full md:w-auto bg-primary text-white px-8 py-3 rounded-lg 
+    hover:bg-primary/80 transition-colors text-xl"
+  >
+    View Project
+  </Link>
+
+  {/* Secondary Button */}
+  <Link
+    href="https://drive.google.com/file/d/1zYi0m2D9JXx33C75110rQs90itOeLuTh/view"
+    target="_blank"
+    className="inline-block w-full md:w-auto bg-gray-700 dark:bg-gray-600 text-white 
+    px-8 py-3 rounded-lg hover:bg-gray-800 dark:hover:bg-gray-500 transition-colors text-xl"
+  >
+    Download Resume
+  </Link>
+
+  {/* Secondary Button */}
+  <Link
+    href="/contact"
+    className="inline-block w-full md:w-auto bg-gray-700 dark:bg-gray-600 text-white 
+    px-8 py-3 rounded-lg hover:bg-gray-800 dark:hover:bg-gray-500 transition-colors text-xl"
+  >
+    Contact Me
+  </Link>
+</div>
       </div>
     </section>
   );
